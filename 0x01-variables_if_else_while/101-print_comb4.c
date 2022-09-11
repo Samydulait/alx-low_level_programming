@@ -5,7 +5,6 @@
   *
   * Return: Always 0 (Success)
   */
-
 int main(void)
 {
 	int hundred, tens, ones;
@@ -16,7 +15,7 @@ int main(void)
 		{
 			for (ones = '2'; ones <= '9'; ones++)
 			{
-				if (hundred != tens && hundred != ones && hundred < tens && ones)
+				if (hundred != tens && hundred != ones && hundred < tens && tens < ones)
 				{
 					putchar(hundred);
 					putchar(tens);
