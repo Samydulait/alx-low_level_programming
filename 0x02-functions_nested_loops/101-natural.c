@@ -8,24 +8,24 @@
 
 int main(void)
 {
-	unsigned long int j, k, next, sum;
+	unsigned long int sum3, sum5, sum;
 	int i;
 
-	i = 1;
-	k = 2;
+	sum3 =  0;
+	sum5 = 0;
 	sum = 0;
 
-	for (i = 0; i < 33; ++i)
+	for (i = 0; i < 1024; ++i)
 	{
-		if (j < 4000000 && (j % 2) == 0)
+		if ((i % 3) == 0)
 		{
-			sum = sum + j;
+			sum3 = sum3 + i;
+		} else if ((i % 5) == 0)
+		{
+			sum5 = sum5 + i;
 		}
-		next = j + k;
-		j = k;
-		k = next;
 	}
-
+	sum = sum3 + sum5;
 	printf("%lu\n", sum);
 
 	return (0);
