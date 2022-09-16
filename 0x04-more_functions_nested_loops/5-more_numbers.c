@@ -20,8 +20,8 @@ void more_numbers(void)
 			{
 				_putchar((n2 / 10) + '0');
 			}
-			_putchar((n2 % 10Â) + '0');
+			_putchar((n2 % 10) + '0');
 		}
-		_putchar(10Â°.
+		_putchar(10);
 	}
 }															}
