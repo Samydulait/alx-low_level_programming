@@ -9,25 +9,23 @@
 
 void print_square(int size)
 {
-	int inc1, inc2;
+	int a;
+	int b;
 
 	if (size > 0)
 	{
-		for (inc1 = 1; inc1 <= size; inc1++)
-		{
-			for (inc2 = size - inc1; inc2 > 0; inc1--)
-				_putchar(' ');
+	for (a = 0; a < size; a++)
+	{
+	for (b = 0; b < size; b++)
+	{
+	_putchar('#');
+	}
+	_putchar('\n');
 
-			for (inc2 = 0; inc2 < inc1; inc2++)
-				_putchar('#');
-
-			if (inc1 == size)
-			{
-				continue;
-			}
-			_putchar('\n');
-		}
 	}
 
+
+
+	}
 	_putchar('\n');
 }
