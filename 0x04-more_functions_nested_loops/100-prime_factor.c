@@ -7,7 +7,7 @@
 *Return: returns 0
 */
 
-int prime_factor(void)
+int main(void)
 {
 	long int n;
 	long int max;
