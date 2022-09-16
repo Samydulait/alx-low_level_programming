@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
-*prime_factor - find and rints the largest prime factor of a number
+*main - find and rints the largest prime factor of a number
 *Return: returns 0
 */
 
