@@ -7,7 +7,7 @@
 
 int prime_factor(void)
 {
-	long number = 612852475143.
+	long number = 612852475143;
 	int inc;
 
 	while (inc++ < number / 2)
