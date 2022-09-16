@@ -5,7 +5,7 @@
 int _putchar(char c);
 
 /**
-  * print-number  - printd numbers
+  * print_number - printd numbers
   * @n: number to be printed
   * Return: void
   */
@@ -14,7 +14,7 @@ void print_number(int n)
 {
 	unsigned int n1 = 0;
 
-	if (n <0)
+	if (n < 0)
 	{
 		n1 = -n;
 		_putchar('-');
