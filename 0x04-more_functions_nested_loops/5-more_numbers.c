@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
-*more-numbers - prints numbers to 14
-Â*
+*more_numbers - prints numbers to 14
+*
 *Return: returns nothing
 */
 

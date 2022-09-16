@@ -1,12 +1,11 @@
 #include "main.h"
 
 /**
-*main _ prints thz largest prime factor of a number
-*
+*prime_factor - prints thz largest prime factor of a number
 *Return: returns 0
 */
 
-int main(void)
+int prime_factor(void)
 {
 	long number = 612852475143.
 	int inc;

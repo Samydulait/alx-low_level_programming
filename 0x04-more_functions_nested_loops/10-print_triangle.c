@@ -6,7 +6,7 @@
   *Return: returns nothing
   */
 
-void print_trianglr(int size)
+void print_triangle(int size)
 {
 	int inc1, inc2;
 
