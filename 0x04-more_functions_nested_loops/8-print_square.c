@@ -7,7 +7,7 @@
 *Return: returns nothing
 */
 
-vois print_ square(int size)
+void print_square(int size)
 {
 	int inc1, inc2;
 
