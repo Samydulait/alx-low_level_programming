@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
-*main Ã- program that prints either number or fizz or buzz or fizzbuzz
+*main - program that prints either number or fizz or buzz or fizzbuzz
 *
 *
 *Return: return 0
@@ -24,11 +24,8 @@ int main(void)
 		}
 		else if ((num % 5) == 0)
 		{
-			if (num != 100)
-			{
-				printf("Buzz ");
-			}
-			else
+			printf("Buzz ");
+		else
 			}
 				printf("Buzz ");
 			}
