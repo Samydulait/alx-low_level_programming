@@ -2,13 +2,13 @@
 #include <stdio.h>
 
 /**
-  * islower - Determines whether ascii is lowercase
+  * isLower - Determines whether ascii is lowercase
   * @c: character
   *
   * Return: 1 if true, 0 if false
   */
 
-int islower(char c)
+int isLower(char c)
 {
 	return (c >= 97 && c <= 122);
 }
@@ -20,7 +20,7 @@ int islower(char c)
   * Return: 1 if true, 0 if false
   */
 
-int isdelimiter(char c)
+int isDelimiter(char c)
 {
 	int i;
 	char delimiter[] = "\t\n,.!?(){}";
@@ -32,7 +32,7 @@ int isdelimiter(char c)
 }
 
 /**
-  * cap_string - capitalizes all words of a string
+  * cap_string - Capitalizes all words of a string
   * @s: Input string
   *
   * Return: string with capitalized words
@@ -45,9 +45,9 @@ char *cap_string(char *s)
 
 	while (*s)
 	{
-		if (islower(*s))
+		if (isDelimiter(*s))
 			foundDelimit = 1;
-		else if (islower(*s) && foundDelimit)
+		else if (isLower(*s) && foundDelimit)
 		{
 			*s -= 32;
 			foundDelimit = 0;
